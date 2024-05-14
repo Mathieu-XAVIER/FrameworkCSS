@@ -5,20 +5,28 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" />
     <title>Document</title>
 </head>
 <body>
 <header>
-    <h1>Hello !</h1>
     <form action="/search" method="get">
         <input type="search" name="q" placeholder="Rechercher...">
         <input type="submit" value="Go">
     </form>
 </header>
-<section>
-    <h2>Slider d'images</h2>
-    <!-- Ajoutez ici votre slider d'images -->
+<section class="slider">
+    <div class="slides">
+        <div class="slide"><img src="https://www.pexels.com/fr-fr/photo/chillin-22698024/" alt="Image 1"></div>
+        <div class="slide"><img src="https://www.pexels.com/fr-fr/photo/ville-art-building-batiment-23476916/" alt="Image 2"></div>
+        <div class="slide"><img src="https://www.pexels.com/fr-fr/photo/lumineux-leger-mer-noir-et-blanc-23549210/" alt="Image 3"></div>
+    </div>
+    <div class="controls">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
 </section>
+
 <section>
     <h2>Images avec les listes de catégories</h2>
     <!-- Ajoutez ici vos images avec les listes de catégories -->
