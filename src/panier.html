@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+    <title>E-commerce - Panier</title>
+</head>
+<body class="bg-gray-200">
+    <header class="bg-white p-4 shadow-md">
+        <div class="max-w-2xl mx-auto">
+            <input class="w-full h-10 px-3 rounded mt-1" type="search" placeholder="Rechercher...">
+        </div>
+    </header>
+
+    <section class="text-center py-8">
+        <h1 class="text-2xl font-bold">Votre panier</h1>
+        <p class="mt-2">Voici les articles que vous avez ajoutés à votre panier.</p>
+    </section>
+
+    <section class="p-4">
+        <div class="bg-white p-4 rounded shadow-md mb-4">
+            <h2 class="font-bold text-lg">Produit 1</h2>
+            <p>Quantité: 2</p>
+            <p>Prix: 20€</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow-md mb-4">
+            <h2 class="font-bold text-lg">Produit 2</h2>
+            <p>Quantité: 1</p>
+            <p>Prix: 15€</p>
+        </div>
+        <!-- Repeat the above div for each product in the cart -->
+    </section>
+
+    <section class="bg-white p-4 rounded shadow-md mb-4">
+        <h2 class="font-bold text-lg">Total: 55€</h2>
+    </section>
+
+    <footer class="fixed bottom-0 w-full bg-white shadow-md p-4">
+        <nav class="max-w-2xl mx-auto flex justify-around">
+            <a href="index.html">Accueil</a>
+            <a href="products.html">Shop</a>
+            <a href="#">Panier</a>
+            <a href="profil.html">Profil</a>
+        </nav>
+    </footer>
+</body>
+</html>
